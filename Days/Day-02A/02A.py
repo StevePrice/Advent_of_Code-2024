@@ -2,6 +2,20 @@
 ## Day 02 Puzzle A of the Advent of Code 2024
 #   https://adventofcode.com/2024/day/2
 
+def isAscending( a, b, c, d, e) -> bool:
+    if (( a<b) and (b<c) and (c<d) and (d<e)):
+        return True
+    else:
+        return False
+
+def isD3cending( a, b, c, d, e) -> bool:
+    if (( a>b) and (b>c) and (c>d) and (d>e)):
+        return True
+    else:
+        return False
+
+
+
 file01a = open("C:\_Projects\__dev\Advent_of_Code-2024\Days\Day-02A\input_test.txt", "r")
 
 # Read the input file and split it into a list of integers
