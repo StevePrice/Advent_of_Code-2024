@@ -77,6 +77,8 @@ curr_direction = 0
 is_safe_report = True
 is_gradual = True
 #print(reports_list)
+#
+# New Logic, call a function which itterates on the list to determine if it is safe
 for line in reports_list: 
     #iline = map(int,  (line.split())) 
     #print(line)
